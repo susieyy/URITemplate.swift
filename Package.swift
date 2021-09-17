@@ -9,7 +9,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/kylef/PathKit.git", .upToNextMinor(from: "1.0.0")),
-    .package(url: "https://github.com/kylef/Spectre.git", .upToNextMinor(from: "0.10.1"))
+    .package(url: "https://github.com/kylef/Spectre.git", .upToNextMinor(from: "0.10.0"))
   ],
   targets: [
     .target(name: "URITemplate", dependencies: [], path: "Sources"),
